@@ -34,8 +34,7 @@ Ex: text_input.dart, button_default.dart, app_bar.dart, ...
 1. Tìm hiểu sử dụng CI/CD
 2. Tìm hiểu về Unit Test, Integration Test
 
-**Các ki thức khi bắt đầu lập trình với Flutter**
-Phần basic
+**Các kiến thức khi bắt đầu lập trình với Flutter**
 - Lifecycle
 - State management
 - JIT và AOT , vì sao dart combine cả 2
@@ -51,7 +50,6 @@ Phần basic
 - Null safety để làm gì ?
 - Sự khác biệt giữa http và dao
 - Bloc, Mobx, Gets
-Nâng cao :
 - Stream , isolate, event loop, micro task
 - Painting widget
 - Wrap library native qua lib flutter
