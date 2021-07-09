@@ -10,6 +10,7 @@ class BaseWidget extends GetView<ApiInterfaceController> {
   final Widget child;
   final bool addSafeArea, addBackgroundColor;
   final EdgeInsets? padding;
+  final EdgeInsets? margin;
   final Color? backgroundColor;
 
   const BaseWidget({
@@ -18,6 +19,7 @@ class BaseWidget extends GetView<ApiInterfaceController> {
     this.addSafeArea = true,
     this.addBackgroundColor = true,
     this.padding,
+    this.margin,
     this.backgroundColor,
   }) : super(key: key);
 
@@ -47,5 +49,6 @@ class BaseWidget extends GetView<ApiInterfaceController> {
         color: addBackgroundColor ? AppColors.white : backgroundColor,
         padding: padding,
         child: child,
+        margin: margin
       );
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_local/app/core/component/custom_text_button.dart';
+import 'package:my_local/app/core/component/custom_default_button.dart';
 import 'package:my_local/app/core/values/strings.dart';
 
 class CustomRetryWidget extends StatelessWidget {
@@ -21,11 +21,7 @@ class CustomRetryWidget extends StatelessWidget {
         children: [
           Text(error),
           SizedBox(height: 16),
-          CustomTextButton(
-            buttonWidth: 85,
-            height: 45,
-            onPressed: onPressed,
-            title: Strings.retry,
+          DefaultButton(
           ),
         ],
       ),
